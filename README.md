@@ -104,11 +104,11 @@ npm install express
 npm install --save socket.io
 ```
 
-# ④「app.js」と「index.html」のダウンロードと配置
+# ④「app.js」、「index.html」、「/public/style.css」のダウンロードと配置
 
-+ 「app.js」と「index.html」を本リポジトリからダウンロードする
++ 「app.js」、「index.html」、「/public/style.css」を本リポジトリからダウンロードする
 
-+ ダウンロードした「app.js」と「index.html」を作業フォルダに配置する
++ ダウンロードした「app.js」、「index.html」、「/public/style.css」を作業フォルダに配置する
 
 # ⑤IPアドレス箇所の書き換え
 
