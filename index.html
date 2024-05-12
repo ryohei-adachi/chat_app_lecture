@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatApplication</title>
+    <!-- ライブラリの読み込み -->
+    <!-- X.X.X.XにIPアレスを設定してください -->
+    <script src="http://192.168.10.101:3000/socket.io/socket.io.js"></script> 
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <link rel='stylesheet' href="/style.css" /> 
+</head>
+<body>
+    <div class="title">
+        <h1>チャットアプリ</h1>
+    </div>
+        <!--ここにformタグを追加してください-->
+        <form id="message_form" action="#">
+            <div class="form">
+                <input id="input_msg" autocomplete="off" />
+                <button>
+                    Send
+                </button>
+            </div>
+        </form>
+        <script>
+        //日付情報を取得するための変数を用意
+        var today = new Date(); 
+
+        // サーバーへ接続
+        const socketio = io();
+
+        $(function(){
+
+            //「Send」ボタンを押したときの処理を記載
+            $('#message_form').submit(function(){
+             
+                //投稿日の取得。月日時分の個所で1桁の場合は先頭に"0"を付けるようにする
+                let year = today.getFullYear()
+                let month = ("0"+(today.getMonth() + 1)).slice(-2);
+                let date = ("0"+today.getDate()).slice(-2);
+                let hour = ("0"+today.getHours()).slice(-2);
+                let minutes = ("0"+today.getMinutes()).slice(-2);
+
+                var datetime = year + "/" + month + "/" + date + " " + hour + ":" + minutes
+                //JavaScriptオブジェクトを取得し、JSON文字列に変換する。
+                var data = JSON.stringify({datetime:datetime, message:$('#input_msg').val()});
+
+                //入力したメッセージ情報をサーバに送信
+                socketio.emit('message_event', data);
+
+                //入力テキストエリアを空にする
+                $('#input_msg').val('');
+
+
+                return false;
+            });
+
+            //サーバからのレスポンスを受け取る
+            socketio.on('message',function(data){  
+                //JSON文字列を取得し、JavaScriptオブジェクトに変換する。
+                var data_json = JSON.parse(data); 
+
+                //受け取ったメッセージ情報をブラウザに描画(liタグとして追加)
+                $('#messages').append($('<li>').text(data_json.message)); 
+                $('#messages').append($('<div class="datetime">'+ data_json.datetime + '</div>')); 
+                $('#messages').append($('<div class="border" />')); 
+            });
+        });
+
+    </script>
+    <ul id="messages"></ul>
+</body>
+</html>
