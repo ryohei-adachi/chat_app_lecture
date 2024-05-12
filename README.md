@@ -4,7 +4,7 @@
   
 ※偶数バージョンのnode.jsは長期間サポートしてくれるバージョン(LTSと呼ぶ)
 
-<br><br>
+<br>
 
 https://nodejs.org/ja/download/
 
@@ -56,3 +56,38 @@ https://nodejs.org/ja/download/
 ```
 node -v
 ```
+
+# ②Expressをインストールする
+
+<br>
+
+※Expressとは、Webサーバの機能を提供するnode.jsで利用できるフレームワーク
+
++作業用フォルダをデスクトップ上に作る
+
+<br><br>
++ コマンドプロンプト(Windows)、ターミナル(Mac)を開き、以下のコマンドを入力する
+
+```
+cd <作業用フォルダのパス>
+npｍ init
+```
+
+<br>
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/65de577c-8089-4323-9d0d-996c18cce84c" width="70%" />
+
+<br>
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/7600a7ed-a564-4d35-8d61-3bfa7135c1db" width="70%" />
+
+<br><br>
+
++ さらに以下のコマンドを入力する
+
+
+```
+npm install express
+```
+
+
