@@ -25,4 +25,4 @@ io.on("connection", socket => {
   });
 });
 
-server.listen(3000,'192.168.10.101'); //X.X.X.XにIPアレスを設定してください
+server.listen(3000,'X.X.X.X'); //X.X.X.XにIPアレスを設定してください
