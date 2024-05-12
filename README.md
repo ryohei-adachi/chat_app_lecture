@@ -90,4 +90,28 @@ npｍ init
 npm install express
 ```
 
+# ③socket.ioのインストール
 
+※socket.ioとは、サーバとクライアントの間で双方向の通信するWebSocketの技術を提供するライブラリ
+
+※WebSocketの技術とは、クライアントとWebサーバとの間で双方向通信を行うための仕組み
+
+<br><br>
+
++ コマンドプロンプト(Windows)、ターミナル(Mac)を開き、以下のコマンドを入力する
+
+```
+npm install --save socket.io
+```
+
+# ④「app.js」と「index.html」のダウンロードと配置
+
++ 「app.js」と「index.html」を本リポジトリからダウンロードする
+
++ ダウンロードした「app.js」と「index.html」を作業フォルダに配置する
+
+# ⑤IPアドレス箇所の書き換え
+
+
+
++ コマンドプロンプト(Windows)、ターミナル(Mac)を開き、以下のコマンドを入力する
