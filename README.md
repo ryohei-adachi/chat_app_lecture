@@ -110,8 +110,34 @@ npm install --save socket.io
 
 + ダウンロードした「app.js」、「index.html」、「/public/style.css」を作業フォルダに配置する
 
-# ⑤IPアドレス箇所の書き換え
+# ⑤「inde.html」のbodyタグの中身を完成させる
 
+<br><br>
 
++ ダウンロードした「inde.html」をテキストエディタ(VisualStudio、メモ帳、さくらエディタなど)で開く
+
+<br><br>
+
++ 「inde.html」のbodyタグの中身に下記内容を記載する
+
+※<!--ここにformタグを追加してください-->の下に記載する
+
+```
+<!--ここにformタグを追加してください-->
+<form id="message_form" action="#">
+    <div class="form">
+        <input id="input_msg" autocomplete="off" />
+        <button>
+         Send
+         </button>
+    </div>
+</form>
+```
+
++ 記載した後は、ファイルを保存する
+
+# ⑥IPアドレス箇所の書き換え
+
++ ダウンロードした「inde.html」と「app.js」をテキストエディタ(VisualStudio、メモ帳、さくらエディタなど)で開く
 
 + コマンドプロンプト(Windows)、ターミナル(Mac)を開き、以下のコマンドを入力する
