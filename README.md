@@ -216,6 +216,15 @@ ipconfig
 
 <br>
 
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/737731b9-fab5-4d1b-8b60-f97c1b0e30ce" width="70%" />
+
+<br><br>
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/2542efa7-b098-4124-936c-00e8f8b9267d" width="70%" />
+
+
+<br>
+
 # ⑦アプリの起動
 
 <br>
