@@ -138,6 +138,9 @@ npm install --save socket.io
 
 + 「app.js」、「index.html」、「/public/style.css」を本リポジトリからダウンロードする
 
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/15dcaa02-5f0c-4198-bea5-3a857277491f" width="70%" />
+
+
 + ダウンロードした「app.js」、「index.html」、「/public/style.css」を作業フォルダに配置する
 
 # ⑤「inde.html」のbodyタグの中身を完成させる
