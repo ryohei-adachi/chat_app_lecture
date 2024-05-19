@@ -84,9 +84,17 @@ npｍ init
 
 <br>
 
-<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/65de577c-8089-4323-9d0d-996c18cce84c" width="70%" />
+「Error: EPERM: operation not permitted, uv_cwd」というエラーが起きた場合は、環境設定 > セキュリティとプライバシ > ファイルとフォルダで、ターミナルの"デスクトップ"のアクセス許可にチェックしてください。
 
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/4ed541fd-48b4-4f8d-b385-0a82b8f542f3" width="70%" />
+
+
+・Windows(コマンドプロンプト)
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/65de577c-8089-4323-9d0d-996c18cce84c" width="70%" />
 <br>
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/c81495dd-3054-440f-9a23-aebcbc7fa1be" width="70%" />
+<br>
+
 
 <img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/7600a7ed-a564-4d35-8d61-3bfa7135c1db" width="70%" />
 
