@@ -235,6 +235,8 @@ ipconfig
 cd <プロジェクト名>
 node app.js
 ```
+<br>
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/e7621d8b-0a1d-4068-acf6-44904e01af4e" width="70%" />
 
 <br>
 
