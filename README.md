@@ -181,7 +181,7 @@ npm install --save socket.io
 
 <br>
 
-<img width="1440" alt="image" src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/66187750-4c7f-4821-97e1-6c84a619ace3">
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/66187750-4c7f-4821-97e1-6c84a619ace3" width="70%" />
 
 <br>
 
