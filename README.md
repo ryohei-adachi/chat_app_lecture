@@ -157,7 +157,11 @@ npm install --save socket.io
 
 + ダウンロードした「inde.html」をテキストエディタ(VisualStudio、メモ帳、さくらエディタなど)で開く
 
-<br><br>
+<br>
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/94d575cd-9b46-4443-8340-326fb186dc3d" width="70%" />
+
+<br>
 
 + 「inde.html」のbodyタグの中身に下記内容を記載する
 
