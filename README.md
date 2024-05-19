@@ -193,7 +193,7 @@ npm install --save socket.io
 
 <br>
 
-+ コマンドプロンプトを開き、以下のコマンドを入力する(Windows)
++ コマンドプロンプトを開き、以下のコマンドを入力して、PCに割り当てらているIPアドレスを確認する(Windows)
 
 ```
 ipconfig
@@ -201,7 +201,12 @@ ipconfig
 
 <br>
 
-+ 「Appleメニュー」（画面左上リンゴのマーク）> 「システム設定」> ［Wi-Fi］> 接続済みSSIDの右にある［詳細］をクリックしてIPアドレスを確認する(Mac)s
++ 「Appleメニュー」（画面左上リンゴのマーク）> 「システム設定」> ［Wi-Fi］> 接続済みSSIDの右にある［詳細］をクリックしてIPアドレスを確認する(Mac)
+
+<br>
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/098fe7b4-2c0b-4758-860e-2336e86ba3a5" width="70%" />
+
 
 <br>
 
