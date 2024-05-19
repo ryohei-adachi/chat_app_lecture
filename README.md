@@ -147,8 +147,7 @@ npm install --save socket.io
 
 <br>
 
-<img width="988" alt="image" src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/15dcaa02-5f0c-4198-bea5-3a857277491f">
-
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/96fef3ea-07b5-40f2-a6f9-0c357b119829" width="70%" />
 
 # ⑤「inde.html」のbodyタグの中身を完成させる
 
