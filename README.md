@@ -63,7 +63,9 @@ node -v
 
 ※Expressとは、Webサーバの機能を提供するnode.jsで利用できるフレームワーク
 
-+作業用フォルダをデスクトップ上に作る
++ 作業用フォルダをデスクトップ上に作る
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/9b982f89-5316-40dd-8eab-23db7860aedb" width="70%" />
 
 <br><br>
 + コマンドプロンプト(Windows)、ターミナル(Mac)を開き、以下のコマンドを入力する
@@ -72,6 +74,13 @@ node -v
 cd <作業用フォルダのパス>
 npｍ init
 ```
+<br>
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/6d7860b3-be5f-4f01-96fb-85e979d8aee2" width="70%" />
+
+<br>
+
+※デスクトップ上に「chat_app」という作業用フォルダを作った場合、「cd Desktop/char_app」となる
 
 <br>
 
