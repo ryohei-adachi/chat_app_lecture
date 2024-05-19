@@ -84,14 +84,23 @@ npｍ init
 
 <br>
 
-「Error: EPERM: operation not permitted, uv_cwd」というエラーが起きた場合は、環境設定 > セキュリティとプライバシ > ファイルとフォルダで、ターミナルの"デスクトップ"のアクセス許可にチェックしてください。
+「Error: EPERM: operation not permitted, uv_cwd」というエラーが起きた場合は、環境設定 > セキュリティとプライバシ > ファイルとフォルダで、ターミナルの"デスクトップ"のアクセス許可にチェックしてください。(Mac)
 
 <img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/4ed541fd-48b4-4f8d-b385-0a82b8f542f3" width="70%" />
 
 
 ・Windows(コマンドプロンプト)
-<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/65de577c-8089-4323-9d0d-996c18cce84c" width="70%" />
 <br>
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/65de577c-8089-4323-9d0d-996c18cce84c" width="70%" />
+
+<br>
+
+<br>
+・Mac(ターミナル)
+
+<br>
+
 <img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/c81495dd-3054-440f-9a23-aebcbc7fa1be" width="70%" />
 <br>
 
@@ -120,6 +129,11 @@ npm install express
 ```
 npm install --save socket.io
 ```
+<br><br>
+↓Mac(ターミナル)で、Expressとsocket.ioのインストール
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/d0c5e7c8-0496-4bcf-bd05-7b4758f085a2" width="70%" />
+
 
 # ④「app.js」、「index.html」、「/public/style.css」のダウンロードと配置
 
