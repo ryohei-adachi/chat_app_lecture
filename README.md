@@ -207,8 +207,9 @@ ipconfig
 
 <img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/098fe7b4-2c0b-4758-860e-2336e86ba3a5" width="70%" />
 
-
 <br>
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/e7bbe436-cb49-4a14-8f0a-c335c9163225" width="70%" />
 
 + 「inde.html」と「app.js」のX.X.X.Xの個所を確認したIPアドレスに書き換えて、保存する
 
