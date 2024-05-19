@@ -240,9 +240,13 @@ node app.js
 
 <br>
 
-+ 以下のURLにアクセスする
++ 以下のURLにアクセスする　(X.X.X.XはPCに振られているIPアドレス)
 
 <br>
 
 
-http://localhost:3000
+http://X.X.X.X:3000
+
+<br>
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/0849ce3a-6534-48cd-8b8c-a93a4844542c" width="70%" />
