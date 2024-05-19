@@ -250,3 +250,7 @@ http://X.X.X.X:3000
 <br>
 
 <img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/0849ce3a-6534-48cd-8b8c-a93a4844542c" width="70%" />
+
+<br>
+
+<img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/20b1fd34-0bf1-4fe7-b7eb-65b3175e0c07" width="70%" />
