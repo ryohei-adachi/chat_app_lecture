@@ -179,6 +179,12 @@ npm install --save socket.io
 </form>
 ```
 
+<br>
+
+<img width="1440" alt="image" src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/66187750-4c7f-4821-97e1-6c84a619ace3">
+
+<br>
+
 + 記載した後は、ファイルを保存する
 
 # ⑥IPアドレス箇所の書き換え
