@@ -4,7 +4,6 @@
   
 ※偶数バージョンのnode.jsは長期間サポートしてくれるバージョン(LTSと呼ぶ)
 
-<br>
 
 https://nodejs.org/ja/download/
 
@@ -89,7 +88,7 @@ npｍ init
 <img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/4ed541fd-48b4-4f8d-b385-0a82b8f542f3" width="70%" />
 
 
-・Windows(コマンドプロンプト)
+↓Windows(コマンドプロンプト)上でnpm initコマンドを実行
 <br>
 
 <img src="https://github.com/ryohei-adachi/chat_app_lecture/assets/75190594/65de577c-8089-4323-9d0d-996c18cce84c" width="70%" />
@@ -97,7 +96,7 @@ npｍ init
 <br>
 
 <br>
-・Mac(ターミナル)
+↓Mac(ターミナル)上でnpm initコマンドを実行
 
 <br>
 
