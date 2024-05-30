@@ -56,7 +56,7 @@ https://nodejs.org/ja/download/
 node -v
 ```
 
-# ②Expressをインストールする
+# ②プロジェクトを作成して、Expressをインストールする
 
 <br>
 
@@ -115,7 +115,7 @@ npｍ init
 npm install express
 ```
 
-# ③socket.ioのインストール
+# ③socket.ioをインストールする
 
 ※socket.ioとは、サーバとクライアントの間で双方向の通信するWebSocketの技術を提供するライブラリ
 
@@ -187,7 +187,7 @@ npm install --save socket.io
 
 + 記載した後は、ファイルを保存する
 
-# ⑥IPアドレス箇所の書き換え
+# ⑥IPアドレス箇所を書き換える
 
 + ダウンロードした「inde.html」と「app.js」をテキストエディタ(VisualStudio、メモ帳、さくらエディタなど)で開く
 
