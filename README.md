@@ -71,7 +71,7 @@ node -v
 
 ```
 cd <作業用フォルダのパス>
-npｍ init
+npm init
 ```
 <br>
 
